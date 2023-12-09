@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kila-me"
+version = "0.1.0"
+description = "Kinderleichtathletik Auswertung"
+authors = ["Sascha Wilhelm <git@sasch.net>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+packages = [{include = "kila"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
